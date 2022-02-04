@@ -1,0 +1,148 @@
+.dropdown-Settle {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content-Settle {
+    display: none;
+    position: absolute;
+ 
+    height: 340px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+    width: 81em;
+    margin-top: 14%;
+ 
+    margin-left: -502%;
+}
+  
+  
+  .dropdown-Settle:hover .dropdown-content-Settle {
+    display: block;
+  }
+
+  .settle-container{
+      display: flex;
+      flex-direction: row;
+  }
+  .settelContent{
+      display: flex;
+     
+      justify-content: space-between;
+      height: 266px;
+       width: 282px;
+   
+      margin-top: 3%;
+      margin-left: 3%;
+  }
+  .container-settle{
+    display: flex;
+    flex-direction: column;
+  
+    height: 250px;
+    width:150px;
+
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: .9em;
+  }
+  .container-settle-2{
+    display: flex;
+    flex-direction: column;
+    
+    height: 250px;
+    width: 150px;
+   
+    margin-top: 2%;
+  
+    padding: .9em;
+  }
+  .container-settle-3{
+    display: flex;
+    flex-direction: column;
+  
+    
+    height: 250px;
+    width: 150px;
+  
+    margin-top: 2%;
+ 
+    padding: .9em;
+  }
+
+ .container-settle li {
+    list-style-type: none;
+    width: 300px;
+      margin-bottom: 0;
+  
+  }
+  .container-settle-2 li{
+    list-style-type: none;
+    width: 300px;
+      margin-bottom: 0;
+
+  }
+  .container-settle-3 li{
+    list-style-type: none;
+    width: 300px;
+      margin-bottom: 0;
+  }
+  .settlelist{
+    display: block;
+    font-size: .9375rem;
+    line-height: .9375rem;
+    color: #50565e;
+    border-bottom: none;
+    padding: 7px 10px;
+    -webkit-transition: .15s cubic-bezier(.645,.045,.355,1);
+    transition: all .15s cubic-bezier(.645,.045,.355,1);
+  }
+  .svgImage-settle{
+ 
+
+  height: 340px;
+  width: 51%;
+  margin-left: -7%;
+  float: right;
+  padding: 0 2.375rem 0 3.125rem;
+  background-color: #1565c1;
+  background-image: -webkit-gradient(linear,right top,right top,from(#258bff),to(#1565c1));
+  background-image: linear-gradient( 
+90deg
+,#258bff 0,#1565c1 100%);
+  line-height: 60px;
+  padding-right: 8.375rem;
+
+  }
+  
+  
+
+    
+  .line-settle {
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 483px;
+    background-color: rgb(255, 255, 255);
+    border-right: 5px solid rgb(21, 101, 193);
+    transform: skew(-22deg);
+    width: 145px;
+}
+.svgImage-settle {
+  height: 340px;
+  width: 51%;
+  margin-left: 0%;
+  float: right;
+  padding: 0px 8.375rem 0px 3.125rem;
+  background-color: rgb(21, 101, 193);
+  background-image: linear-gradient(
+90deg
+, rgb(37, 139, 255) 0px, rgb(21, 101, 193) 100%);
+  line-height: 60px;
+}
+.settlelistlist a :hover{
+  background-color: rgb(233, 231, 231);
+  color: #1565c1;
+
+}

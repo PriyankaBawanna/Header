@@ -1,0 +1,124 @@
+.report-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .report-dropdown-content {
+    display: none;
+    position: absolute;
+ 
+    height: 340px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+    width: 80.8em;
+    margin-top: 14%;
+ 
+    margin-left: -548%;
+    
+  }
+  li {
+    list-style-type: none;
+    width: 300px;
+      margin-bottom: 0;
+  }
+  
+  .report-dropdown:hover .report-dropdown-content {
+    display: block;
+  }
+  .reportContent{
+    display: flex;
+    flex-direction: row;
+  }
+  .reportContent-1{
+    display:flex;
+    flex-direction: column;
+    height: 180px;
+    width: 200px;
+    padding: .9em;
+   
+    margin-top: 2%;
+    margin-left: 2%;
+
+  }
+  .reportContent-2{
+    display:flex;
+    flex-direction: column;
+    height: 180px;
+    width: 200px;
+    padding: .9em;
+    
+    margin-top: 2%;
+    margin-left: 0%;
+
+  }
+  .report-list{
+    display: block;
+    font-size: .9375rem;
+    line-height: .9375rem;
+    color: #50565e;
+    border-bottom: none;
+    padding: 7px 10px;
+    -webkit-transition: .15s cubic-bezier(.645,.045,.355,1);
+    transition: all .15s cubic-bezier(.645,.045,.355,1);
+  }
+
+
+
+  .svgImage-report {
+    height: 340px;
+    width: 51%;
+    margin-left: -1%;
+    float: right;
+    padding: 0 2.375rem 0 3.125rem;
+    background-color: #1565c1;
+    background-image: -webkit-gradient(linear,right top,right top,from(#258bff),to(#1565c1));
+    background-image: linear-gradient( 
+90deg
+ ,#258bff 0,#1565c1 100%);
+    line-height: 60px;
+    padding-right: 8.375rem;
+}
+.line-report {
+  content: '';
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 390px;
+  background-color: #fff;
+  border-right: 5px solid #1565c1;
+  -webkit-transform: skew( 
+-22deg
+);
+  transform: skew( -22deg );
+  width: 150px;
+}
+
+
+.svgImage-report {
+  height: 340px;
+  width: 51%;
+  margin-left: 2%;
+  float: right;
+  padding: 0 2.375rem 0 3.125rem;
+  background-color: #1565c1;
+  background-image: -webkit-gradient(linear,right top,right top,from(#258bff),to(#1565c1));
+  background-image: linear-gradient( 
+90deg
+,#258bff 0,#1565c1 100%);
+  line-height: 60px;
+  padding-right: 8.375rem;
+}
+.line-report {
+  content: '';
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 424px;
+  background-color: #fff;
+  border-right: 5px solid #1565c1;
+  -webkit-transform: skew( 
+-22deg
+);
+  transform: skew( -22deg );
+  width: 150px;
+}

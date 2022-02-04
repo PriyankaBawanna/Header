@@ -1,0 +1,182 @@
+.main-nav__link {
+    display: block;
+    padding: 10px 0.75rem 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #7c8288;
+    cursor: pointer;
+    -webkit-transition: .2s cubic-bezier(.645,.045,.355,1);
+    transition: .2s cubic-bezier(.645,.045,.355,1);
+    -webkit-transition-delay: .1s!important;
+    transition-delay: .1s!important;
+    margin-left: 5%;
+    font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial;
+    margin-left: 12px;
+
+    
+}
+
+    
+
+    .dropdown-content-Plan {
+      display: none;
+      position: absolute;
+      background-color: #fff;
+    
+      height: 340px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+
+      width: 80em;
+      margin-left: -35%;
+        margin-top: 1%;
+
+        
+
+
+
+        
+        width: 87.9em;
+ 
+ 
+
+
+
+}
+    
+    
+    .dropdown-content-Plan a {
+      display: block;
+      font-size: .9375rem;
+      line-height: .9375rem;
+      color: #50565e;
+      border-bottom: none;
+      padding: 7px 10px;
+      -webkit-transition: .15s cubic-bezier(.645,.045,.355,1);
+      transition: all .15s cubic-bezier(.645,.045,.355,1);
+    }
+    
+   /* .dropdown-content a:hover {background-color: #f1f1f1}*/
+    
+    .dropdownplan:hover .dropdown-content-Plan {
+      display: block;
+    }
+    
+  
+    .main-nav__link:hover{
+        color: rgb(36, 138, 255);
+    }
+
+
+
+.down {
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+color: #7c8288;
+}
+.arrow {
+border: solid #7c8288;
+border-width: 0 3px 3px 0;
+display: inline-block;
+padding: 3px;
+
+}
+
+.arrow:hover {
+
+transform: rotate(235deg);
+visibility: visible;
+opacity: 1;
+-webkit-transition: .2s cubic-bezier(.645,.045,.355,1);
+transition: all .2s cubic-bezier(.645,.045,.355,1);
+-webkit-transition-delay: .2s;
+transition-delay: .2s;
+
+}
+.planList{
+  display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 12%;
+    padding: 1.2em;
+   
+    height: 50%;
+    width: 23%;
+    
+  
+}
+.planList-li{
+  list-style-type: none;
+  width: 300px;
+    margin-bottom: 0;
+
+}
+.planlistcontent{
+  display: block;
+    font-size: .9375rem;
+    line-height: .9375rem;
+    color: #50565e;
+    border-bottom: none;
+    padding: 7px 10px;
+    -webkit-transition: .15s cubic-bezier(.645,.045,.355,1);
+    transition: all .15s cubic-bezier(.645,.045,.355,1);
+
+}
+.popup-link::after {
+  content: '';
+  display: inline-block;
+  margin-left: 6px;
+  width: 11px;
+  height: 11px;
+ /* background: url(popup-icon.svg) no-repeat;*/
+}
+
+
+.popup-link::after {
+  content: '';
+  display: inline-block;
+  margin-left: 6px;
+  width: 11px;
+  height: 11px;
+  background: url(https://qa-portal.ctsi-global.com/TmsV3/dist/Main/Menu/popup-icon.svg) no-repeat;
+}
+.plancontainer{
+  display: flex;
+  flex-direction: row;
+
+  margin-left: -2%;
+}
+
+ .line {
+  
+  content: "";
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 40%;
+    background-color: rgb(255, 255, 255);
+    border-right: 5px solid rgb(21, 101, 193);
+    transform: skew(-22deg);
+    width: 145px;
+}
+.planList-li a:hover{
+  background-color: rgb(233, 231, 231);
+  color: #1565c1;
+}
+
+.svgImage{
+  height: 339px;
+  width: 51%;
+  margin-left: 11%;
+
+  float: right;
+  padding: 0 2.375rem 0 3.125rem;
+  background-color: #1565c1;
+  background-image: -webkit-gradient(linear,right top,right top,from(#258bff),to(#1565c1));
+  background-image: linear-gradient( 
+90deg
+,#258bff 0,#1565c1 100%);
+  line-height: 60px;
+  padding-right: 8.375rem;
+}
